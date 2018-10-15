@@ -1,3 +1,11 @@
-.background {
-	url(http://customwallpaper.net.au/wp-content/uploads/2015/12/AdobeStock_55894388.jpeg);
+.black_block {
+	height: 100px;
+	background: black;
+    background-repeat: repeat-x;
+}
+
+.text_black_block {
+	color: white;
+	font-family: Gabriola;
+	font-size: 20px;
 }
