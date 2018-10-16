@@ -1,7 +1,16 @@
+.margin_body {
+	border: 0px;
+	margin: 0px;
+	outline: 0px;
+	padding: 0px;
+}
+
 .black_block {
-	height: 100px;
 	background: black;
+	height: 60px;
+	padding: 30px 17px 3px;
     background-repeat: repeat-x;
+    display: block;
 }
 
 .text_black_block {
@@ -9,3 +18,35 @@
 	font-family: Gabriola;
 	font-size: 20px;
 }
+
+.right {
+	float: right;
+}
+
+h1 {
+	font-family: 'Capture it';
+}
+
+@font-face {
+	font-family: 'Capture it';
+	src: url('../fonts/capture_it.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/capture_it.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/capture_it.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/capture_it.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/capture_it.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/capture_it.svg#capture_it') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+@font-face {
+	font-family: Sauce; 
+	src: url(C:\Users\Елена\Desktop\Web-pages\Файлы\11619.ttf) format("truetype"); 
+	font-style: normal; 
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: TrixieCyr-Cameo Regular;  
+	src: url(C:\Windows\Fonts\TrixieCyr-Cameo обычный) format("truetype"); 
+	font-style: normal; 
+	font-weight: normal;
+} 
