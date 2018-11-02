@@ -41,49 +41,55 @@ body {
 
 .position_main_noize {
 	position: absolute;
-	margin-top: 80px;
-	margin-left: 85px;
+	width: auto;
+	margin-top: 50px;
+	margin-right: 50px;
+	margin-left: 50px;
+	display: block;
 }
 
 .position_main_fan {
 	position: absolute;
-	margin-top: 280px;
-	margin-left: 400px;
+	width: auto;
+	margin-top: 250px;
+	margin-right: 50px;
+	margin-left: 380px;
+	display: block;
 }
 
 .position_main_poster {
 	position: absolute;
-	margin-top: 562px;
-	margin-left: 223px;
+	margin-top: 500px;
+	margin-left: 200px;
 }
 
 .position_main_media {
 	position: absolute;
-	margin-top: 563px;
+	margin-top: 500px;
 	margin-left: 578px;
 }
 
 .position_main_shop {
 	position: absolute;
-	margin-top: 428px;
+	margin-top: 370px;
 	margin-left: 800px;
 }
 
 .position_main_forum {
 	position: absolute;
-	margin-top: 422px;
+	margin-top: 370px;
 	margin-left: 450px;
 }
 
 .position_main_news {
 	position: absolute;
-	margin-top: 429px;
-	margin-left: 107px;
+	margin-top: 370px;
+	margin-left: 100px;
 }
 
 .position_main_group {
 	position: absolute;
-	margin-top: 305px;
+	margin-top: 255px;
 	margin-left: 14px;
 	height: 80px;
 	width: 350px;

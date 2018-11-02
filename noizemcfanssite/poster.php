@@ -40,7 +40,7 @@
 	
 		<!-- ГЛАВНАЯ -->
 		<span class="position_noize">
-			<a href="main.php" title="Фан-сайт | Noize MC">
+			<a href="index.php" title="Фан-сайт | Noize MC">
 				<img src="Файлы/NoizeMC.png" alt="Noize MC">
 			</a>
 		</span>
@@ -94,7 +94,7 @@
   				<button type="submit"></button>
 			</form>
 		</div> -->
-		
+
 		<?php
 
 			$tickets = [
