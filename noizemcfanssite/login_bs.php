@@ -124,7 +124,7 @@
  
         	/* Возвращаем пользователя на главную страницу */
         	header("HTTP/1.1 301 Moved Permanently");
-        	header("Location: ".$address_site."/main.php");
+        	header("Location: ".$address_site."/index.php");
  
     		} else {
          

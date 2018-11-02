@@ -6,7 +6,7 @@
 		<meta charset="utf-8">
 		
 		<!-- Название страницы -->
-		<title>Фан-сайт | Noize MC | Форум</title>
+		<title>Фан-сайт | Noize MC | Общение</title>
 		
 		<!-- Подключаемые файлы -->
 		<link href="Styles-горизонт.css" rel="stylesheet" type="text/css" media="all and (orientation:landscape)">
@@ -57,8 +57,8 @@
 				<a href="shop.php" title="Фан-сайт | Noize MC | Магазин">
 					<img src="Файлы/магазМ.png" title="Магазин">
 				</a>
-				<a href="forum.php" title="Фан-сайт | Noize MC | Форум">
-					<img src="Файлы/форумМ.png" title="Форум">
+				<a href="forum.php" title="Фан-сайт | Noize MC | Общение">
+					<img src="Файлы/общениеМ.png" title="Общение">
 				</a>
 				<a href="news.php" title="Фан-сайт | Noize MC | Новости">
 					<img src="Файлы/новостиМ.png" title="Новости">
@@ -148,7 +148,7 @@
 
 		<div class="buy">
 			<a href="http://fanssite.7bb.ru" target="_blank">
-				Дополнительный форум
+				Форум
 			</a>
 		</div>
 		

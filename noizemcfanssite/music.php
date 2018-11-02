@@ -57,8 +57,8 @@
 				<a href="shop.php" title="Фан-сайт | Noize MC | Магазин">
 					<img src="Файлы/магазМ.png" title="Магазин">
 				</a>
-				<a href="forum.php" title="Фан-сайт | Noize MC | Форум">
-					<img src="Файлы/форумМ.png" title="Форум">
+				<a href="forum.php" title="Фан-сайт | Noize MC | Общение">
+					<img src="Файлы/общениеМ.png" title="Общение">
 				</a>
 				<a href="news.php" title="Фан-сайт | Noize MC | Новости">
 					<img src="Файлы/новостиМ.png" title="Новости">
