@@ -70,7 +70,7 @@
 		<!-- ОБЩЕНИЕ -->
 		<div class="position_main_forum">
 			<a href="forum.php" title="Форум">
-				<img src="Файлы/общение.png" title="Форум">
+				<img src="Файлы/общение.png" title="Общение">
 			</a>
 		</div>
 		
