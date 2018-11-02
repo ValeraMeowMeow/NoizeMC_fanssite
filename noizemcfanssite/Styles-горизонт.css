@@ -1,0 +1,815 @@
+.margin_body {
+	border: 0px;
+	margin: 0px;
+	outline: 0px;
+	padding: 0px;
+}
+
+body {
+	background-image: url(Файлы/фон.jpeg);
+	background-attachment: fixed;     /* Фиксированно */
+	background-size: cover;           /* Маштабированно */
+}
+
+.black_block_main {
+	position: absolute;
+	bottom: -300px;
+	background: black;
+	height: 60px;
+	width: 97.2%;
+	padding: 45px 17px 15px;
+    display: block;
+}
+
+.black_block {
+	background: black;
+	height: 60px;
+	width: 97,5%;
+	padding: 45px 17px 15px;
+    display: block;
+}
+
+.text_black_block {
+	color: white;
+	font-family: Gabriola;
+	font-size: 20px;
+}
+
+.right {
+	float: right;
+}
+
+.position_main_noize {
+	position: absolute;
+	margin-top: 80px;
+	margin-left: 85px;
+}
+
+.position_main_fan {
+	position: absolute;
+	margin-top: 280px;
+	margin-left: 400px;
+}
+
+.position_main_poster {
+	position: absolute;
+	margin-top: 562px;
+	margin-left: 223px;
+}
+
+.position_main_media {
+	position: absolute;
+	margin-top: 563px;
+	margin-left: 578px;
+}
+
+.position_main_shop {
+	position: absolute;
+	margin-top: 428px;
+	margin-left: 800px;
+}
+
+.position_main_forum {
+	position: absolute;
+	margin-top: 422px;
+	margin-left: 450px;
+}
+
+.position_main_news {
+	position: absolute;
+	margin-top: 429px;
+	margin-left: 107px;
+}
+
+.position_main_group {
+	position: absolute;
+	margin-top: 305px;
+	margin-left: 14px;
+	height: 80px;
+	width: 350px;
+}
+
+.position_main_login {
+	position: absolute;
+	margin-top: 30px;
+	margin-left: 1030px;
+}
+
+.position_noize {
+	position: absolute;
+	margin-top: 0;
+	margin-left: 0;
+}
+
+.position_login {
+	float: right;
+	padding: 10px 10px;
+}
+
+/* КАРТИНКИ В МЕДИА */
+.media_1 a img {
+	padding: 50px 25px;
+	height: 200px;
+	width: 300px;
+}
+
+.media_2 a img {
+	padding: 50px 60px;
+	height: 300px;
+	width: 200px;
+}
+
+/* МЕНЮ */
+
+/* Размер, позиция */
+.menu {
+	height: 100px;
+	padding: 10px;
+}
+
+/* Позиция, размер */
+.button {
+	margin-left: 350px;
+	width: 800px;
+}
+
+.button a img,
+.button a {
+	display: block;
+	float: left;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+	height: 70px;
+	width: 70px;
+}
+
+.button a {
+	margin: 5px 20px;
+}
+
+.menu a:hover img {
+	margin-left: -30%;
+	height: 100px;
+	width: 100px;
+}
+
+.button a:hover {
+	font: normal bold 10px;
+}
+
+/* КНОПКА НАВЕРХ*/
+
+#button-up {
+	/* блок */
+    display: none;
+    left: 20px;
+    margin: 0;
+    position: fixed;
+    bottom: 150px;
+    outline: none;
+    padding: 5px 10px 5px;
+	width:auto;
+    color: black;
+    line-height: 30px;
+    text-decoration: none;
+    background-color: black;
+    opacity: 0.9;
+
+    /* шрифт */
+    font-family: Century Gothic, cursive;
+    font-size: 25px;
+    color: white;
+    
+    /* курсор */
+    box-shadow: 0 2px 4px #999;
+    -webkit-box-shadow: 0 2px 4px #999;
+    -moz-box-shadow: 0 2px 4px #999;
+    -o-box-shadow: 0 2px 4px #999;
+    cursor:pointer;
+}
+
+/* ОФОРМЛЕНИЕ ТОВАРА */
+
+.block_product {
+	/* блок товара */
+	height: 200px;
+	width: auto;
+	margin-right: 120px;
+	margin-left: 120px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	padding: 15px 15px 15px;
+	background-color: white;
+	/* прозрачность */
+	opacity: 0.8;  
+	display: block;
+}
+
+.block_product a img {
+	/* размер и положение картинки */
+	position: absolute;
+	height: 200px;
+	width: 200px;
+	padding: 2px 2px 2px;
+	display: block;
+} 
+
+.text_product a {
+	/* параметры названия товара */
+	text-decoration: none;
+	margin-left: 210px;
+	padding: 10px;
+	color: black;
+	font-family: Century Gothic, cursive;
+	font-size: 30px;
+	line-height: 1;
+	display: inline-block;
+}
+
+.text_product a:after {
+	/* текст -> блочный элемент, разметка полоски */
+    display: block;
+    content: "";
+    height: 1.5px;
+    width: 0%;
+    background-color: black;
+     /* плавное изменение ширины (0.4 sec)*/
+    transition: width 0.4s ease-in-out;
+}
+
+.text_product a:hover:after, a:focus:after {
+	/* появление полоски */
+    width: 100%;
+}
+
+.text_product_price {
+	margin-left: 210px;
+	padding: 10px;
+	color: black;
+	font-family: Century Gothic, cursive;
+	font-size: 24px;
+}
+
+.text_product_etc {
+	margin-left: 210px;
+	padding: 10px;
+	color: grey;
+	font-family: Century Gothic, cursive;
+	font-size: 18px;
+}
+
+.buy {
+	height: 30px;
+	width: auto;
+	padding: 5px 25px 10px;
+	float: right;
+	background-color: black;
+	display: block;
+	color: white;
+	font-family: Century Gothic, cursive;
+	font-size: 26px;
+}
+
+.buy a {
+	text-decoration: none;
+	color: white;
+	line-height: 1;
+	display: inline-block;
+}
+
+.buy a:after {
+	display: block;
+    content: "";
+    height: 2px;
+    width: 0%;
+    background-color: white;
+     /* плавное изменение ширины (0.4 sec)*/
+    transition: width 0.4s ease-in-out;
+}
+
+.buy a:hover:after, a:focus:after {
+	width: 100%;
+}
+
+.big_product {
+	position: fixed;
+	background-color: white;
+	height: auto;
+	width: 410px;
+	display: block;
+	margin-left: 200px;
+	margin-top: -30px;
+  	z-index: 10;
+}
+
+.big_product p {
+	padding: 5px 5px 5px;
+  	color: black;
+	font-family: Century Gothic, cursive;
+	font-size: 30px;
+	display: block;
+}
+
+.big_product_name {
+  	color: black;
+	font-family: Century Gothic, cursive;
+	font-size: 35px;
+	height: auto;
+	width: 390px;
+	padding: 0 10px 5px;
+	display: block;
+}
+
+.close_product a img{
+	position: fixed;
+	height: 50px;
+	width: 50px;
+	padding: 5px 5px 5px;
+	opacity: 0.9;
+}
+
+/* КНОПКА "В КОРЗИНУ" */
+.v_korzin {
+	position: relative;
+	height: 30px;
+	width: 100px;
+	margin-right: 5px;
+	margin-left: 5px;
+	padding: 5px 150px 2px;
+	background-color: black;
+  	color: white;
+	font-family: Century Gothic, cursive;
+	font-size: 20px;
+	opacity: 0.8;
+	display: block;
+}
+
+.v_korzin button {
+	position: fixed;
+	height: 30px;
+	width: auto;
+	margin-right: 5px;
+	margin-left: 5px;
+	padding: 0;
+	background-color: black;
+    outline: none;
+    outline: none;
+  	border: none;
+  	color: white;
+	font-family: Century Gothic, cursive;
+	font-size: 20px;
+	opacity: 0.8;
+	display: block;
+}
+
+.v_korzin a {
+	text-decoration: none;
+	color: white;
+	line-height: 1;
+	display: inline-block;
+}
+
+.v_korzin a:after {
+	display: block;
+    content: "";
+    height: 1.5px;
+    width: 0%;
+    background-color: white;
+     /* плавное изменение ширины (0.4 sec)*/
+    transition: width 0.4s ease-in-out;
+}
+
+.v_korzin a:hover:after, a:focus:after {
+	width: 100%;
+}
+
+/* ПОИСК В АФИШЕ */
+.search * {
+	box-sizing: border-box;
+}
+
+.search form {
+  position: relative;
+  width: 300px;
+  margin-left: 75px;
+  margin-top: 10px;
+}
+
+.search input, .search button {
+  border: none;
+  outline: none;
+}
+
+.search input {
+  width: 100%;
+  height: 50px;
+  background: black;
+  padding-left: 15px;
+  opacity: 0.85;
+  color: white;
+  font-family: Century Gothic, cursive;
+  font-size: 25px;
+}
+
+.search button {
+  height: 35px;
+  width: 35px;
+  position: absolute;
+  top: 7.5px;
+  right: 7.5px;
+  background: grey;
+  cursor: pointer;
+}
+
+/* Кнопка "поиск" */
+.search button:before {
+  content: "🔍";
+  font-family: Century Gothic, cursive;
+  color: white;
+  font-size: 25px;
+}
+
+.pr {
+	margin-right: 5px;
+	margin-left: 5px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+/* ОФОРМЛЕНИЕ БИЛЕТОВ */
+.ticket_block {
+	height: 50px;
+	width: auto;
+	margin-right: 75px;
+	margin-left: 75px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 15px 15px 15px;
+	background-color: white;
+	opacity: 0.85;
+	display: block;
+}
+
+.ticket_data {
+	height: 25px;
+	width: auto;
+  	font-family: Century Gothic, cursive;
+ 	color: black;
+ 	font-size: 30px;
+}
+
+.ticket_city {
+	font-weight: 850;
+	height: 30px;
+	width: auto;
+  	font-family: Century Gothic, cursive;
+ 	color: black;
+ 	font-size: 40px;
+}
+
+.ticket_place {
+	height: 20px;
+	width: auto;
+	font-family: Century Gothic, cursive;
+	color: grey;
+}
+
+/* ОФОРМЛЕНИЕ ГАЛЕРЕИ */
+/* Общий блок */
+.galsss {
+	width: auto;
+	margin-right: 50px;
+	margin-left: 100px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	display: inline-block;
+	background-color: black;
+	opacity: 0.9;
+}
+
+/* Блок картинки */
+.block_gal {
+	position: absolute;
+	float: left;
+	height: auto;
+	width: 300px;
+	padding: 5px 5px 5px;
+	margin-bottom: 10px;
+	display: inline-block;
+}
+
+/* картинка */
+.block_gal img {
+	width: 300px;
+	display: inline-block;
+}
+
+/* мероприятие */
+.gals_text1 {
+	height: auto;
+	margin-right: 10px;
+	margin-left: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 300px;
+	font-family: Century Gothic, cursive;
+	font-size: 30px;
+	font-weight: 700;
+	color: white;
+	display: block;
+}
+
+.gals_text1_1 {
+	height: auto;
+	margin-right: 10px;
+	margin-left: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 300px;
+	font-family: Century Gothic, cursive;
+	font-size: 25px;
+	font-weight: 700;
+	color: white;
+	display: block;
+}
+
+/* дата */
+.gals_text2 {
+	height: auto;
+	width: auto;
+	margin-right: 10px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	font-family: Century Gothic, cursive;
+	font-size: 20px;
+	color: grey;
+	display: block;
+}
+
+/* дополнительно */
+.gals_text3 {
+	height: auto;
+	width: auto;
+	margin-right: 10px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	font-family: Century Gothic, cursive;
+	font-size: 16px;
+	color: grey;
+	display: block;
+}
+
+/* блок галереи */
+.gal {
+	position: relative;
+	margin-left: 310px;
+	margin-right: 10px;
+	margin-top: 5px;
+	float: right;
+	width: auto;
+	overflow: hidden;
+	display: inline-block;
+}
+
+/* основное фото */
+.gal .sl {
+	width: 100%;
+	height: 70vmin;
+	padding: 0;
+	margin: 0;
+	overflow: auto;
+}
+
+/* остальные фото */
+.gal .sl > li {
+	position: absolute;
+	width: 100%;
+	height: 70vmin;
+	z-index: 1;
+	overflow: hidden;
+}
+
+/* размер фото */
+.gal .sl > li > img {
+	width: 100%;
+	height: auto;
+}
+
+.gal .th {
+	display: inline-block;
+	position: relative;
+	padding: 0;
+	margin: 0;
+}
+
+.gal .th > li {
+	float: left;
+	width: 20%;
+}
+
+.gal .th > li > a {
+	display: inline-block;
+}
+
+.gal .th > li > a > img {
+	width: 100%;
+	height: auto;
+}
+
+.gal .sl li:target {
+	z-index: 3;
+	-webkit-animation: slide 1s 1;
+}
+
+.gal .sl li:not(:target) {
+	-webkit-animation: hidden 1s 1;
+}
+
+/* ВИДЕО */
+.video {
+	padding: 20px 20px 20px;
+	display: inline-block;
+}
+
+.video_img {
+	position: relative;
+	width: auto;
+	margin-left: 210px;
+	margin-right: 210px;
+	height: auto;
+	padding: 10px 10px 10px;
+	color: white;
+	font-family: Century Gothic, cursive;
+	font-size: 35px;
+	background-color: black;
+	opacity: 0.85;
+	display: block;
+}
+
+.video a img {
+	width: 50px;
+	height: 50px;
+}
+
+/* ОФОРМЛЕНИЕ АУДИО */
+/* блочный элемент */
+.audio {
+	margin-right: 100px;
+	margin-left: 100px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: auto;
+	height: 60px;
+	padding: 7px 10px 7px;
+	display: inline-block;
+}
+
+.audio p {
+	margin-left: 10px;
+	margin-right: 10px;
+	width: auto;
+	color: black;
+	font-family: Century Gothic, cursive;
+	font-size: 30px;
+	font-weight: 700;
+	display: inline-block;
+}
+
+/* О ГРУППЕ */
+/* основной блок */
+.atg {
+	margin-left: 100px;
+	margin-right: 100px;
+	width: auto;
+	margin-top: 10px;
+	margin-bottom: 30px;
+	height: auto;
+	padding: 10px 10px 10px;
+	background-color: white;
+	opacity: 0.85;
+	color: black;
+	font-family: Century Gothic, cursive;
+	display: block;
+}
+
+.atg img {
+	padding: 5px 10px 5px 10px;
+	height: 45%;
+	width: 45%;
+	display: inline-block;
+}
+
+.basket_block {
+	margin-left: 100px;
+	margin-right: 100px;
+	width: auto;
+	margin-top: 10px;
+	margin-bottom: 30px;
+	height: auto;
+	padding: 10px 10px 10px;
+	background-color: white;
+	opacity: 0.85;
+	color: black;
+	font-family: Century Gothic, cursive;
+	display: block;
+}
+
+/* РЕГИСТРАЦИЯ */
+.search h1 {
+	padding: 0 80px 0;
+	width: auto;
+	background-color: black;
+	opacity: 0.85;
+	color: white;
+	font-family: Century Gothic, cursive;
+	font-weight: 850;
+	display: block;
+}
+
+/* Блок для форума */
+.forum_block {
+	margin-left: 100px;
+	margin-right: 100px;
+	width: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	height: 150px;
+	background-color: white;
+	opacity: 0.85;
+	font-family: Century Gothic, cursive;
+}
+
+.forum_block h1 {
+	font-size: 30px;
+	width: auto;
+	display: block;
+}
+/* text_product - чёрный текст */
+/* v_korzin - белый текст */
+.forum_block_pl {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 100px;
+	margin-right: 100px;
+	width: auto;
+	height: auto;
+	padding: 10px;
+	background-color: white;
+	opacity: 0.85;
+	display: block;
+}
+
+.forum_title {
+	margin-top: 5px;
+	width: auto;
+	height: 30px;
+	padding: 5px 5px 5px;
+	background-color: black;
+	font-family: Century Gothic, cursive;
+	font-size: 25px;
+	color: white;
+	display: block;
+}
+
+.forum_quest {
+	margin-top: 5px;
+	width: auto;
+	height: 70px;
+	padding: 5px 5px 5px;
+	background-color: black;
+	font-family: Century Gothic, cursive;
+	font-size: 20px;
+	color: white;
+	display: block;
+}
+
+.forum_block {
+	height: auto;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	padding: 5px 5px 5px;
+	width: auto;
+	margin-left: 100px;
+	margin-right: 100px;
+	background-color: white;
+	font-family: Century Gothic, cursive;
+	opacity: 0.9;
+}
+
+.forum_block_title {
+	color: black;
+	font-size: 30px;
+	font-weight: 800;
+}
+
+.forum_block_content {
+	color: grey;
+	font-size: 25px;
+}
+
+.forum_block_data {
+	color: grey;
+	font-size: 25px;
+}
